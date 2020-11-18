@@ -1,0 +1,23 @@
+{
+    "HelloToio": {
+        "checkpoints": [
+            {
+                "steps": 36351,
+                "file_path": "results\\HelloToio-ppo-1\\HelloToio\\HelloToio-36351.nn",
+                "reward": 0.9473684210526315,
+                "creation_time": 1605686548.9898186
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 36351,
+            "file_path": "results\\HelloToio-ppo-1\\HelloToio.nn",
+            "reward": 0.9473684210526315,
+            "creation_time": 1605686548.9898186
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.1.0",
+        "mlagents_version": "0.21.1",
+        "tensorflow_version": "2.0.0"
+    }
+}

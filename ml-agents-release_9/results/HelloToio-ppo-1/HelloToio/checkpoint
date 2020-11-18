@@ -1,0 +1,2 @@
+model_checkpoint_path: "HelloToio-36351.ckpt"
+all_model_checkpoint_paths: "HelloToio-36351.ckpt"
