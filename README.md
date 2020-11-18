@@ -7,8 +7,7 @@ https://github.com/Unity-Technologies/ml-agents/releases/tag/release_9
 
 - In Anaconda Prompt:
 ```
-conda create -n mlagents9 python==3.7
-pip install torch -f https://download.pytorch.org/whl/torch_stable.html
+conda create -n mlagents9 python=3.7
 cd ml-agents-release_9
 pip install -e ./ml-agents-envs
 pip install -e ./ml-agents
@@ -21,4 +20,16 @@ pip install -e ./ml-agents
 1. Change directory to ml-agents-release_9 and Run:
 ```
 mlagents-learn config/sample/HelloToio.yaml --run-id=HelloToio-ppo-1 --time-scale=1
+```
+
+## Solve Error
+- `pip install -e ./mlagents` had a error `ERROR: After October 2020 you may...`.
+```
+pip install -e ./ml-agents --use-feature=2020-resolver
+```
+(reference: https://note.com/npaka/n/n92580a746f2d)
+
+- TensorFlow could not import. This problem has been solved for following command.
+```
+pip install --upgrade tensorflow==2.0.0
 ```
