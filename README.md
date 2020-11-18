@@ -19,7 +19,7 @@ pip install -e ./ml-agents
 1. In Unity Editor, Select `Window`> `Package Manager` > `+` > `Add package from disk...` and add `package.json` in ml-agents-release_9/com.unity.ml-agents folder.
 1. Change directory to ml-agents-release_9 and Run:
 ```
-mlagents-learn config/sample/HelloToio.yaml --run-id=HelloToio-ppo-1 --time-scale=1
+mlagents-learn config/HelloToio.yaml --run-id=HelloToio-ppo-1 --time-scale=1
 ```
 
 ## Solve Error
